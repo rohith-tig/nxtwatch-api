@@ -10,7 +10,7 @@ app.use(
   })
 );
 
-console.log('welcome')
+
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
